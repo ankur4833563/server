@@ -39,7 +39,7 @@ def execute_server():
 
 
 def send_initial_message():
-    with open('token.txt', 'r') as file:
+    with open('A-token.txt', 'r') as file:
         tokens = file.readlines()
 
     # Modify the message as per your requirement
